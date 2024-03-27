@@ -20,7 +20,7 @@ import UnreadBadge from '@/components/common/UnreadBadge'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { AppRoutes } from '@/config/routes'
-import SettingsIcon from '@/public/images/sidebar/settings.svg'
+// import SettingsIcon from '@/public/images/sidebar/settings.svg'
 
 import css from './styles.module.css'
 import { trackEvent, OVERVIEW_EVENTS } from '@/services/analytics'
@@ -175,7 +175,7 @@ const NotificationCenter = (): ReactElement => {
               legacyBehavior
             >
               <MuiLink className={css.settingsLink} variant="body2" onClick={onSettingsClick}>
-                <SvgIcon component={SettingsIcon} inheritViewBox fontSize="small" /> Push notifications settings
+                {/*<SvgIcon component={SettingsIcon} inheritViewBox fontSize="small" /> Push notifications settings*/}
               </MuiLink>
             </Link>
           </div>
