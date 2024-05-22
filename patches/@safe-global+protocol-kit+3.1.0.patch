@@ -1,0 +1,12 @@
+diff --git a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
+index a3c670d..f5936d5 100644
+--- a/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
++++ b/node_modules/@safe-global/protocol-kit/dist/src/utils/eip-3770/config.js
+@@ -205,6 +205,7 @@ exports.networks = [
+     { chainId: 534353n, shortName: 'scr-alpha' },
+     { chainId: 622277n, shortName: 'rth' },
+     { chainId: 713715n, shortName: 'sei-devnet' },
++    { chainId: 7225878n, shortName: 'saakuru' },
+     { chainId: 7777777n, shortName: 'zora' },
+     { chainId: 6038361n, shortName: 'azkyt' },
+     { chainId: 11155111n, shortName: 'sep' },
