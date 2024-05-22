@@ -44,7 +44,7 @@ export const createOnboard = (
     appMetadata: {
       name: 'Saakuru Safe',
       icon: location.origin + '/images/logo-round.svg',
-      description: 'Saakuru Safe – smart contract wallet for Ethereum (ex-Gnosis Safe multisig)',
+      description: 'Saakuru Safe – smart contract wallet for Saakuru network',
     },
 
     connect: {
